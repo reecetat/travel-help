@@ -121,19 +121,89 @@ public class TravelDirectory {
              }
              if (option.equals("5")) {
              System.out.println("Detroit, USA to Kayseri, Turkey through Turkish Airlines costs $1,905 economy round-trip and is 24 hours 45 minutes");
-             kb.nextLine();
+             }           
+             }
+     else {
+     }
+            System.out.println("");
             System.out.println("Is there anything else we can help you with?");
-    System.out.println("\t1. yes\n\t2. No"); 
+    System.out.println("\t1. Yes\n\t2. No"); 
     option = kb.nextLine();
      if (option.equals("1")) {
-         System.out.println("Which city are you flying into?");
-            
-        
-     }
+          System.out.println("Please choose from the following.");   
+          System.out.println("\t1. Things to do\n\t2. Hotels\n\t3. Exchange Rates");
+         option = kb.nextLine();
+            if (option.equals("1")) {
+        System.out.println("Which country are you interested in?");
+         System.out.println("\t1. Italy\n\t2. United Kingdom\n\t3. Greece\n\t4. Germany\n\t5. Turkey"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {
+              System.out.println("Are you more interested in sight seeing or thrilling attractions?");   
+         System.out.println("\t1. Sight seeing\n\t2. Attractions"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {
+             System.out.println("Italy is a beautiful European country with lots to see!");
+             System.out.println("");
+             System.out.println("Some things to see in Italy are:");
+             System.out.println("");
+             System.out.println("The Leaning Tower of Pisa - Pisa, Italy");
+             System.out.println("Trevi Fountain - Rome, Italy");
+             System.out.println("Colosseum Amphitheatre - Rome, Italy");
+             System.out.println("Cathedral of Santa Maria del Fiore - Florence, Italy");
+             System.out.println("Pantheon Roman Temple - Rome, Italy");
+         }
+         else if (option.equals("2")) {
+             System.out.println("Italy has plenty of thrilling attractions that will be sure to get your blood pumping!");
+             System.out.println("");
+             System.out.println("Some exciting things to do in Italy are:");
+             System.out.println("");
+             System.out.println("Movieland Amusement/Water Park - Lazise, Italy");
+             System.out.println("Sky Experience Paragliding - Rome, Italy");
+             System.out.println("Ferarri Test Drive - Maranello, Italy");
+             System.out.println("Corrado Conca Rock Climbing - Sassari, Italy");
+             System.out.println("LaoRaft River Rafting - Scalea, Italy");
          }
      }
+         else if (option.equals("2")) {
+             System.out.println("Are you more interested in sight seeing or thrilling attractions?");   
+         System.out.println("\t1. Sight seeing\n\t2. Attractions"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {
+             System.out.println("The United Kingdom has plenty of sightseeing opportunities!");
+             System.out.println("");
+             System.out.println("Some of the best thigs to see in the UK are:");
+             System.out.println("");
+             System.out.println("Big Ben - London, England");
+             System.out.println("Tower of London - London, England");
+             System.out.println("Edinburgh Castle - Edinburgh, Scotland");
+             System.out.println("Stonehedge - Belgravia, UK");
+             System.out.println("Gaint's Causeway - Belfast, Ireland");
+         }
+         }
+          else if (option.equals("3")) {
+             System.out.println("Are you more interested in sight seeing or thrilling attractions?");   
+         System.out.println("\t1. Sight seeing\n\t2. Attractions"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {
+             System.out.println("Greece has plenty of beautiful sightseeing opportunities!");
+             System.out.println("");
+             System.out.println("Some of the best thigs to see in Greece are:");
+             System.out.println("");
+             System.out.println("Temple of Olympian Zeus - Athens, Greece");
+             System.out.println("The Parthenon Temple - Athens, Greece");
+             System.out.println("Meteora - Kalabaka, Greece");
+             System.out.println("Knossos - Crete, Greece");
+             System.out.println("Elafonisi Island - Crete, Greece");
+     }
+          } 
+            }
+     else if (option.equals("2")){
+                System.out.println("Thank you for using Travel Directory, have a great day!");
     }
 }
+    }
+}
+
     
             
  
