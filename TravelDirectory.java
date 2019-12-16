@@ -179,6 +179,17 @@ public class TravelDirectory {
              System.out.println("Stonehedge - Belgravia, UK");
              System.out.println("Gaint's Causeway - Belfast, Ireland");
          }
+          else if (option.equals("2")) {
+             System.out.println("The United Kingdom has plenty of thrilling attractions that will be sure to get your blood pumping!");
+             System.out.println("");
+             System.out.println("Some exciting things to do in the UK are:");
+             System.out.println("");
+             System.out.println("North London Skydiving - London, Englnd");
+             System.out.println("Crags Adventures -Windermere, England");
+             System.out.println("Interactive Harry Potter Tour - Edinburgh, Scotland");
+             System.out.println("Camera Obscura and World of Illusions - Edinburgh, Scotland");
+             System.out.println("Titanic Live Escape Game - Belfast, Northern Ireland");
+         }
          }
           else if (option.equals("3")) {
              System.out.println("Are you more interested in sight seeing or thrilling attractions?");   
@@ -195,14 +206,179 @@ public class TravelDirectory {
              System.out.println("Knossos - Crete, Greece");
              System.out.println("Elafonisi Island - Crete, Greece");
      }
+         else if (option.equals("2")) {
+             System.out.println("Greece has plenty of thrilling attractions that will be sure to get your blood pumping!");
+             System.out.println("");
+             System.out.println("Some exciting things to do in Greece are:");
+             System.out.println("");
+             System.out.println("Rhodes Faliraki Water Park - Faliraki, Greece");
+             System.out.println("Zakynthos Water Village - Sarakinado, Greece");
+             System.out.println("Labyrinth - Crete, Greece");
+             System.out.println("High Speed Boat to Lindos - Rodos, Greece");
+             System.out.println("Skydive Athens - Athens, Greece");
           } 
+          }
+         else if (option.equals("4")) {
+             System.out.println("Are you more interested in sight seeing or thrilling attractions?");   
+         System.out.println("\t1. Sight seeing\n\t2. Attractions"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {
+             System.out.println("Germany has plenty of beautiful sightseeing opportunities!");
+             System.out.println("");
+             System.out.println("Some of the best thigs to see in Germany are:");
+             System.out.println("");
+             System.out.println("Neuschwanstein Castle - Munich, Germany");
+             System.out.println("Sachsenhausen Concentration Camp Memorial - Berlin, Germany");
+             System.out.println("Third Reich Memorial - Berlin Germany");
+             System.out.println("Old Town - Nuremberg, Germany");
+             System.out.println("Rhine Valley - Frankfurt, Germany");
+     }
+         else if (option.equals("2")) {
+             System.out.println("Germany has plenty of thrilling attractions that will be sure to get your blood pumping!");
+             System.out.println("");
+             System.out.println("Some exciting things to do in Germany are:");
+             System.out.println("");
+             System.out.println("Europa-Park - Baden-Wurttemberg, Germany");
+             System.out.println("Miniatur Wonderland - Hamburg, Germany");
+             System.out.println("Fly Royal Paragliding - Fussen, Germany");
+             System.out.println("RSRNurburg Racing - Nuerburg, Germany");
+             System.out.println("Pullout Skydive - Gießen, Germany");
+          } 
+         }
+          else if (option.equals("5")) {
+             System.out.println("Are you more interested in sight seeing or thrilling attractions?");   
+         System.out.println("\t1. Sight seeing\n\t2. Attractions"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {
+             System.out.println("Turkey has plenty of interesting sightseeing opportunities!");
+             System.out.println("");
+             System.out.println("Some of the best thigs to see in Turkey are:");
+             System.out.println("");
+             System.out.println("Aya Sofya Museum - Istanbul, Turkey");
+             System.out.println("Ephesus - Ephesus, Turkey");
+             System.out.println("Cappadocia - Nyssa, Turkey");
+             System.out.println("Pamukkale Natural Hot Spring - Denizli, Turkey");
+             System.out.println("Mount Nemrut -  Kayadibi/Kâhta, Turkey");
+     }
+         else if (option.equals("2")) {
+             System.out.println("Turkey has plenty of thrilling attractions that will be sure to get your blood pumping!");
+             System.out.println("");
+             System.out.println("Some exciting things to do in Turkey are:");
+             System.out.println("");
+             System.out.println("AquaDream Waterpark - Marmaris, Turkey");
+             System.out.println("Jeep Safari - Alanya, Turkey");
+             System.out.println("Hip-Notics Cable Ski -  Manavgat, Turkey");
+             System.out.println("Adaland - Kusadasi, Turkey");
+             System.out.println("Mediterranean Divers - Antalya, Turkey");
+         }
             }
+            }
+            else if (option.equals("2")) {
+                System.out.println("Which country are you interested in?");
+         System.out.println("\t1. Italy\n\t2. United Kingdom\n\t3. Greece\n\t4. Germany\n\t5. Turkey"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {
+            System.out.println("Some of the top hotels in Italy and their average room cost (ARC) are:"); 
+            System.out.println("");
+            System.out.println("Cavalieri - Rome, Italy - ARC: $227");
+            System.out.println("Grand Hotel Convento di Amalfi - Amalfi, Italy - ARC: $245");
+            System.out.println("Four Seasons Firenze - Florence, Italy - ARC: $660");
+            System.out.println("Excelsior Vittoria - Sorrento, Italy - ARC: $381");
+            System.out.println("Papadopoli Venezia - Venice, Italy - ARC: $176");
+            }
+          else if (option.equals("2")) {
+            System.out.println("Some of the top hotels in the UK and their average room cost (ARC) are:"); 
+            System.out.println("");
+            System.out.println("St Brides - Pembrokeshire, Wales - ARC: $192");
+            System.out.println("Swinfen Hall - Lichfield, England - ARC: $164");
+            System.out.println("Powerscourt - Wicklow, Ireland - ARC: $185");
+            System.out.println("Swan at Lavenham - Lavenham, England - ARC: $172");
+            System.out.println("The Marcliffe - Pitfodels, Scotland - ARC: $172");
+                      }
+         else if (option.equals("3")) {
+            System.out.println("Some of the top hotels in Greece and their average room cost (ARC) are:"); 
+            System.out.println("");
+            System.out.println("Moni Emvasis Luxury - Monemvasia, Greece - ARC: $169");
+            System.out.println("Asteras Villas - Santorini, Greece - ARC: $141");
+            System.out.println("A-Luxury Villas - Gimnastiriou, Greece - ARC: $162");
+            System.out.println("Grande Bretagne - Athina, Greece - ARC: $238");
+            System.out.println("Melissi Villas - Melissi, Greece - ARC: $143");
+            }
+          else if (option.equals("4")) {
+            System.out.println("Some of the top hotels in Germany and their average room cost (ARC) are:"); 
+            System.out.println("");
+            System.out.println("Taschenbergpalais Kempinski Dresden - Dresden, Germany - ARC: $203");
+            System.out.println("Sofitel Frankfurt Opera - Frankfurt, Germany - ARC: $248");
+            System.out.println("The Fontenay - Hamburg, Germany - ARC: $276");
+            System.out.println("The Ritz-Carlton - Wolfsburg, Germany - ARC: $368");
+            System.out.println("Sofitel Munich Bayerpost - München, Germany - ARC: $219");
+          }
+         else if (option.equals("5")) {
+            System.out.println("Some of the top hotels in Turkey and their average room cost (ARC) are:"); 
+            System.out.println("");
+            System.out.println("Hilton Izmir - Konak/Izmir, Turkey - ARC: $61");
+            System.out.println("TASİGO Eskişehir - Odunpazari, Turkey - ARC: $81");
+            System.out.println("Asteria Kremlin Palace - Aksu, Turkey - ARC: $77");
+            System.out.println("Crowne Plaza - Antalya, Turkey - ARC: $30");
+            System.out.println("Titanic Mardan Palace - Antalya, Turkey - ARC: $169");
+         }
+     }
+            else if (option.equals("3")) {
+                System.out.println("Which country are you interested in?");
+         System.out.println("\t1. Italy\n\t2. United Kingdom\n\t3. Greece\n\t4. Germany\n\t5. Turkey"); 
+         option = kb.nextLine();
+         if (option.equals("1")) {       
+            System.out.println("Please enter amount of American dollars");
+            int cost = kb.nextInt();
+            double answer = calculateEuro (cost);
+            System.out.println(answer + " Euro");
+        }
+         if (option.equals("2")) {       
+            System.out.println("Please enter amount of American dollars");
+            int cost = kb.nextInt();
+            double answer = calculatePound (cost);
+            System.out.println(answer + " Pound Sterling");
+     }
+         if (option.equals("3")) {       
+            System.out.println("Please enter amount of American dollars");
+            int cost = kb.nextInt();
+            double answer = calculateEuro (cost);
+            System.out.println(answer + " Euro");
+     }
+         if (option.equals("4")) {       
+            System.out.println("Please enter amount of American dollars");
+            int cost = kb.nextInt();
+            double answer = calculateEuro (cost);
+            System.out.println(answer + " Euro");
+     }
+         if (option.equals("5")) {       
+            System.out.println("Please enter amount of American dollars");
+            int cost = kb.nextInt();
+            double answer = calculateLira (cost);
+            System.out.println(answer + " Turkish lira");
+     }
+            }
+     }
      else if (option.equals("2")){
                 System.out.println("Thank you for using Travel Directory, have a great day!");
     }
-}
+    }
+   public static double calculateEuro (int cost) {
+        double euro = (double) cost * 0.9;
+        return euro;
+    }
+    public static double calculatePound (int cost) {
+        double pound = (double) cost * 1.33;
+        return pound;
+    }
+     public static double calculateLira (int cost) {
+        double lira = (double) cost * 5.85;
+        return lira;
     }
 }
+
+    
+
 
     
             
